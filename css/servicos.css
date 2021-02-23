@@ -1,0 +1,115 @@
+.barra-sublinhado{
+  border-bottom: solid 2px #582425;
+  width: 120px;
+  margin: auto;
+  height: 2px;
+  margin-bottom: 5%;
+}
+
+
+.secao-acessorios{
+  margin-top: 5%;
+}
+
+.acessorios{
+  border-style: none;
+  padding-left: 5%;
+
+}
+
+.descricao-acessorio{
+  text-align: center;
+  color: #582425;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+.titulo-descricao-acessorio{
+  text-align: center;
+  color: #582425;
+  font-weight: bold;
+}
+
+.secao-acessorios > h1{
+  text-align: center;
+  color: #582425;
+  font-weight: bold;
+  font-size: 2.6em;
+  padding: 0;
+
+}
+
+/*Secao precos*/
+#precos{
+  background-image: url('../img/background-preco-3.jpg');
+  background-attachment: fixed;
+  width: 100%;
+}
+
+#lista-preco{
+  border: 3px solid #FFF;
+  width: 70%;
+  padding-bottom: 50px;
+  margin-top: 50px;
+  text-align: center;
+  float: right;
+  width: 50%;
+  margin-bottom: 50px;
+}
+
+#logo-lista-preco{
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.valores{
+  color: #FFF;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: table;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.itens{
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: table-cell;
+  width: 5%;
+  white-space: nowrap;
+  padding-top: 10px;
+}
+
+.separador{
+  border-bottom: dashed 1px #FFF;
+  display: table-cell;
+  width: auto;
+}
+
+.valor{
+  text-align: right;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: table-cell;
+  width: 5%;
+}
+
+@media (max-width: 480px){
+  
+  #lista-preco{
+    width: 100%;
+  }
+
+  .descricao-acessorio{    
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  .titulo-descricao-acessorio{
+    font-size: 1.5em;
+    font-weight: 800;
+  }
+}
+
+/*Fim da secao precos*/

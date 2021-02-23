@@ -1,0 +1,118 @@
+#secao-contato{
+  text-align: center;
+  margin-top: 5%;
+}
+
+h1{
+  color: #582425;
+}
+
+.icones{
+  padding-top: 5%;
+}
+
+#contato{
+  padding-top: 5%;
+
+}
+
+.descricao-contatos{
+  color: #582425;
+  font-size: 1.2em;
+  font-family: monospace;
+}
+
+#contato{
+  background-image: url('../img/backgroud-contato.png');
+  background-attachment: fixed;
+  height: 600px;
+  margin-top: 5%;
+  width: 100%;
+}
+
+.form-horizontal{
+  padding-top: 10%;
+  padding-right: 10%;
+  padding-right: 20%;
+}
+
+input::placeholder {
+  color: #572424 !important;
+}
+
+textarea::placeholder{
+  color: #572424 !important;
+}
+
+.form-control{
+  width: 35%;
+  border: 1px solid #572424;
+}
+
+.form-control:focus{
+  border-color: #572424;
+  display: block;
+  box-shadow: rgba(88, 36, 37, 1)!important;
+}
+
+.form-group{
+  color: #572424;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+.btn{
+  background-color: #fff;
+  color: #572424;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.btn:focus{
+  border-color: #572424;
+  border-style:  none;
+  outline-color: #572424;
+
+}
+
+.btn:active{
+  color: #572424;
+  background-color: #fff;
+
+}
+
+.btn:focus:active{
+  outline-color: #572424;
+}
+
+.btn:hover{
+  color: #572424;
+}
+
+.mapouter{
+  margin-top: 5%;
+  height: 600px !important;
+  margin-bottom: 5%;
+  margin-left: 3%;
+}
+
+.container > h1{
+  text-align: center;
+}
+
+#secao-mapa{
+  margin-top: 5%;
+}
+
+iframe{
+  width: 100%;
+}
+@media (max-width: 480px){
+  .form-control{
+    width: 100%;    
+  }
+
+  #contato{
+    height: 400px;
+  }
+}

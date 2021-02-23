@@ -1,0 +1,56 @@
+h1{
+  text-align: center;
+  color: #582425;
+  font-weight: bold;
+  font-size: 2.6em;
+  margin-top: 5%;
+  width: 100%;
+  padding: 0;
+  }
+
+#secao-dia-do-noivo{       
+  padding: 0;
+  height: 600px;    
+  background-image: url('../img/dia-do-noivo.jpg');
+  background-attachment:fixed;
+  background-position: 50% 70%;
+  background-repeat: no-repeat;
+  background-size: cover;   
+}
+
+.caption > h3{
+  color: #582425;
+  text-align: center;  
+  font-weight: bold;
+}
+
+.barra-sublinhado-pacotes{
+  border-bottom: solid 2px #582425;
+  width: 80%;
+  margin: 0 auto;
+  height: 2px;
+}
+
+.thumbnail{
+  width: 80%;
+  margin-top: 15%;
+  margin-left: 8%;
+  height: 620px;
+  border: 1px solid #582425;
+}
+
+.thumbnail > img{
+  padding-top: 5px;
+}
+
+.caption > p{
+  color: #582425;
+  text-align: left;
+  margin-top: 7%;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-left: 10%;
+}
+
+
+

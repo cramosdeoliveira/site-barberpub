@@ -1,0 +1,82 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.secao-estrutura > h1{
+  text-align: center;
+  color: #582425;
+  font-weight: bold;
+  font-size: 2.6em;
+  margin-top: 5%;
+  width: 100%;
+  padding: 0;
+}
+
+#estrutura{
+  margin-top: 5%;
+  background-image: url('../img/estutura.jpg');
+  background-attachment: fixed;
+  height: 900px;
+  padding-left: 5%;  
+  background-size: cover;
+  background-repeat: no-repeat;  
+  width: 100%;
+}
+
+#sobre-estrutura{
+  background-color: rgba(88, 36, 37, 0.7);
+  margin-top: 10%;
+  float: left;
+  width: 45%;
+
+}
+
+#sobre-estrutura > p{
+  color: #fff;
+  font-size: 1.2em;
+  text-align: justify;
+  padding-top: 2%;
+}
+
+#sobre-estrutura > h3{
+  color: #fff;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.secao-barbearia > h1{
+  text-align: center;
+  color: #582425;
+  font-weight: bold;
+  font-size: 2.6em;
+  margin-top: 5%;
+  padding: 0;
+}
+
+
+.carousel{
+  width: 65%;
+  margin-top: 5%;
+  left: 18%;
+  margin-bottom: 5%;
+}
+
+@media (max-width: 480px){
+
+  #sobre-estrutura{
+    width: 80%;
+  }
+  
+  #sobre-estrutura > p{
+    text-align: justify;
+    font-size: 1.2em; 
+    font-weight: 800;   
+  }
+
+  .carousel{
+    left: 9%;
+    width: 80%;
+  }
+
+}
